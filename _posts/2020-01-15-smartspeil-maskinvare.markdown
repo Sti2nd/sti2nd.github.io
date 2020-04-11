@@ -5,6 +5,9 @@ date:   2020-01-15 08:18:12 +0100
 categories: [smartspeil, magisk speil, magic mirror norsk, magic mirror norge]
 permalink: /smartspeil-del-1-maskinvaren/
 ---
+
+_Sist oppdatert: 11.04.20_
+
 ## Introduksjon
 
 Helt siden jeg for flere år siden oppdaget smartspeil har jeg hatt lyst til å lage et. Smartspeil er for de som ikke vet det et delvis gjennomsiktig speil med en skjerm bak. Et <a href="https://www.google.com/search?q=magic+mirror" target="_blank" rel="noopener noreferrer">søk på Google Bilder etter "magic mirror"</a> gir mange eksempler. Det var først når jeg begynte å jobbe og fant ut at jeg hadde litt fritid å slå i hjel at jeg endelig klarte å lage et.
@@ -57,7 +60,7 @@ En essensiell del av et smartspeil er det delvis gjennomsiktige speilet. Hele gr
 
 To viktige ting å få med seg.
 
-1\. Speil = vindu
+1\. Speil = vindu ?
 
 Dette er bare et definisjonsspørsmål, men hvis et speil er gjennomsiktig, er det ikke da et vindu? Det meste av glass er gjennomsiktig og gir refleksjon samtidig. Det vi kan gjøre er å skaffe oss et glass, og så lenge det er lysere på vår side av glasset enn den andre vil vi se oss selv sterkere enn den andre siden. Jeg har lest et sted at det burde minst være 5 ganger lysere på din side for å få en bra speileffekt.
 
@@ -106,21 +109,27 @@ Ulemper med glass:
 - Kan knuse
 - Kan ikke bearbeides selv
 
-Jeg ville ha et materiale som så bra ut med 54,5cm x 82cm og hadde lest at akrylglass kunne begynne å bøye seg når det ble så stort. Valget falt på glass. Jeg sendte e-post til noen glassmestere og spurte om de hadde noen glass til mitt bruk og ba om å få oppgitt verdier for refleksjon og gjennomsiktighet. Til slutt sammenlignet jeg pris og refleksjon og gjennomsiktighet på tilbudene og endte opp med et glass laget spesielt til smartspeil, Pilkington MirroView™. Den har en gjennomsiktighet på 25% og refleksjon på 64%, og er litt dyr (men faktisk ikke det dyreste tilbudet jeg fikk).
+Jeg ville ha et materiale som så bra ut med 54,5cm x 82cm og hadde lest at akrylglass kunne begynne å bøye seg når det ble så stort. Valget falt på glass. Jeg sendte e-post til noen glassmestere og spurte om de hadde noen glass til mitt bruk og ba om å få oppgitt verdier for refleksjon og gjennomsiktighet. Til slutt sammenlignet jeg pris og refleksjon og gjennomsiktighet på tilbudene og endte opp med et glass laget spesielt til smartspeil, [Pilkington MirroView™][6]. Kjøpte fra glassmesteren Altiglass. Speilet har en gjennomsiktighet på 25% og refleksjon på 64%, og er litt dyr (men faktisk ikke det dyreste tilbudet jeg fikk). Verdiene på Pilkington sine MirrorView produkter står på side 66 (68 i pdf-leser) i brosjyren [Glassfakta 2018](https://www.pilkington.com/nb-no/no/produkter/funksjonsglass/spesialglass/pilkington-mirroview#brosjyrer).
 
 ### Ramme
 
-Jeg hadde ringt rundt til forskjellige byggevareforretninger og sjekket dimensjonene på konstruksjonstrevirke for å finne noe som passet. Et problem som gjensto å løse var at jeg nesten ikke eide verktøy. Jeg planla å kutte de fire plankene som skulle utgjøre ramma i 45 grader på hver ende, men jeg hadde bare en sag i barnestørrelse som var forferdelig å jobbe med. Planen var også å frese et spor til speilet som [Cato Antonsen][4] hadde gjort, men det var i hvertfall umulig uten verktøy. Jeg sjekket ut makerspace i Oslo for å se om de kunne hjelpe meg, og det kunne de, men jeg måtte ta kurs for å frese. Og bil hadde jeg heller ikke til å frakte materialer frem og tilbake. På dette tidspunktet hadde jeg planlagt litt og litt i flere måneder og anskaffet speil. Siden juleferien kom og jeg var lei av lite fremgang bestemte jeg meg for at det var viktigere å få startet enn å bruke enda flere måneder på å lage en ramme fra bunnen av. Jeg er jo ingen snekker men en informatiker! Jeg stakk bort til Artifix på sagene og fikk bestilt en ramme som jeg kunne hente (med kollektivtrafikk) noen dager senere, ferdig malt!
+Jeg hadde ringt rundt til forskjellige byggevareforretninger og sjekket dimensjonene på konstruksjonstrevirke for å finne noe som passet. Et problem som gjensto å løse var at jeg nesten ikke eide verktøy. Jeg planla å kutte de fire plankene som skulle utgjøre ramma i 45 grader på hver ende, men jeg hadde bare en sag i barnestørrelse som var forferdelig å jobbe med. Planen var også å frese et spor til speilet som [Cato Antonsen][4] hadde gjort, men det var i hvertfall umulig uten verktøy. Jeg sjekket ut makerspace i Oslo for å se om de kunne hjelpe meg, og det kunne de, men jeg måtte ta kurs for å frese. Og bil hadde jeg heller ikke til å frakte materialer frem og tilbake. På dette tidspunktet hadde jeg planlagt litt og litt i flere måneder og anskaffet speil. Siden juleferien kom og jeg var lei av lite fremgang bestemte jeg meg for at det var viktigere å få startet enn å bruke enda flere måneder på å lage en ramme fra bunnen av. Jeg er jo ingen snekker men en informatiker! Jeg stakk bort til Artifix på Sagene og fikk bestilt en ramme som jeg kunne hente (med kollektivtrafikk) noen dager senere, ferdig malt!
+
+![Black frame example](/assets/black_frame.jpg)
+
+_Illustrasjon av hvordan en ramme kan se ut fra [bgafotobutikk](https://www.bgafotobutikk.no/). Min ramme var mørkegrå._
 
 En bekymring jeg fikk var at ramma var veldig lett, så jeg håpet på at ramma ikke ville svikte og speilet knuse.
 
 ### Skjerm
 
-Det jeg vektla når det kom til skjerm var at den skulle ha ok svartnivå og være relativt tynn. Hvis svartnivået er dårlig kan man se overgangen fra skjerm til ikke skjerm gjennom speilet. Dette kalles "bleeding" og er en av grunnene til at en heldekkende skjerm kan være bedre. Jeg hadde to monitorer fra før av, begge billige, og tenkte at den beste måten å vite om en skjerm var tynn nok var å demontere den og sjekke. Siden min BenQ-skjerm hadde bedre svartnivå enn den enda billigere AOC-skjermen, ofret jeg den. Å demontere skjermen var det andre jeg gjorde sånn at jeg fant ut hvor tynn hele konstruksjonen kunne bli.
+Det jeg vektla når det kom til skjerm var at den skulle ha ok svartnivå og være relativt tynn. Hvis svartnivået er dårlig kan man se overgangen fra skjerm til ikke skjerm gjennom speilet. Dette kalles "bleeding" og er en av grunnene til at en heldekkende skjerm kan være bedre. Jeg hadde to monitorer fra før av, begge billige, og tenkte at den beste måten å vite om en skjerm var tynn nok var å demontere den og sjekke. Siden min BenQ-skjerm hadde bedre svartnivå enn den enda billigere AOC-skjermen, ofret jeg den. Å demontere skjermen var det andre jeg gjorde sånn at jeg fant ut hvor tynn hele konstruksjonen kunne bli. En monitor er typisk også mindre utsatt for screen burn-in.
 
-BenQ skjermen hadde en lysstyrke på 250 cd/m². Siden jeg forestilte meg å bare vise hvit tekst og 
+![BenQ 24" LED GW2470H](/assets/benq_screen.jpg)
 
-_Den nøyaktige modellen jeg bruker selges ikke lenger, så jeg tror den som er nærmeste lik min nå er BenQ 24 GW470ML._
+_Illustrasjon fra [Komplett](https://komplett.no) av hvordan BenQ-skjermen ser ut_
+
+BenQ skjermen hadde en lysstyrke på 250 cd/m². Siden jeg forestilte meg å bare vise hvit tekst og hadde lagt penger i et speil med relativt god gjennomsiktighet satset jeg på at den var lyssterk nok.
 
 #### Demontering av skjerm
 
@@ -142,8 +151,83 @@ I bilde over ser vi skjermen ferdig demontert. Siden jeg nå kunne plassere kret
 
 På dette tidspunktet hadde jeg alle delene jeg trengte for å starte: en demontert skjerm, ramme, speil og noen planker.
 
+La oss teste at speilet og ramma passer sammen!
+
+![Testing the mirror inside the frame](/assets/test_mirror_in_frame.jpg)
+
+Ramma var to millimeter lenger og bredere enn speilet, så speilet passet fint oppi. Legg merke til at du kan se mønsteret på dyna gjennom speilet.
+
+Neste steg var å få på plass skjermen; det var to kretskort jeg måtte gjøre noe med. For å unngå å lime rett på kretskortet (selv om det ikke er noe galt i det så lenge man vet at limet er riktig) bestemte jeg meg for å skru på kretskortene på en tynn treplate som jeg først dekket med elektrisk teip.
+
+![Plank covered in electric tape](/assets/plank_electric_tape.jpg)
+
+![Screen still works after disassemblying](/assets/screen_still_works.jpg)
+
+Etter å ha festet kretskortene på platen funket fortsatt skjermen! Alltid nervepirrende å sjekke om man har ødelagt noe.
+
+Det siste jeg ville gjøre med skjermen var å teipe kantene som var av metall med den elektriske teipen. Det ville beskytte mot å ripe glasset samtidig som det gjorde kanten svart.
+
+![Tape on the screen edge](/assets/tape_screen_edges.jpg)
+
+Og da var jeg klar til å teste skjermen sammen med ramma og speilet:
+
+![Screen, frame and mirror test](/assets/screen_frame_mirror_test.jpg)
+
+Begynner å ligne på noe 😍
+
+For å være sikker på at forholdet mellom lys og mørke er det beste velger noen å bygge en bakside på rammen slik at hele konstruksjonen blir en (lystett) boks, mens andre fester svarte materialer bak eller rett på speilet. Jeg gikk på Clas Ohlson og fant noe som heter [D-C-Fix dekorplast](https://www.clasohlson.com/no/D-C-Fix-dekorplast/p/40-6089) i fargen "Tre svart". Jeg mistenkte at den var helfarget svart på baksiden, som viste seg å stemme. Den fester seg selv og skal forhåpentligvis kunne fjernes igjen også uten å legge igjen for mye lim. Til meg selv i fremtiden: har sett at det er lett å fjerne hvis man bruker hårføner når man drar av, og limet skal kunne tas vekk med vann. Også bra å at jeg har et speil av glass i tilfelle jeg må skrape litt. I bildet under har jeg lagt på D-C Fix på speilet med en plass til skjermen:
+
+![D-C Fix applied to the mirror](/assets/d-c_fix_applied.jpg)
+
+Jeg borret noen bittesmå luftehull i ramma på toppen og bunnen. I tillegg visste jeg at veggen jeg hang speilet på hadde riller som også ville lufte. Jeg hadde en versjon av Raspberry Pi som kunne bli varm.
+
+![Air holes in the frame](/assets/air_holes.jpg)
+
+For å holde speilet og skjermen på plass i rammen (så de ikke veltet bakover) skjærte jeg til to planker. Her ser man den som sitter nederst:
+
+![Plank to hold mirror and screen](/assets/plank_to_hold_mirror_and_screen.jpg)
+
+Mellom planken og det under brukte jeg noe skumgummi-lignende materiale som jeg stjal fra søpla til de jeg bor med.
+
+![Foam to hold mirror and screen](/assets/foam_to_hold_mirror_and_screen.jpg)
+
+Legg også merke til at jeg forsterket ramma ved å skru inn vinkeljern i alle hjørnene. Speilet veide en del kilo og jeg stolte ikke på at stiftene og limet som var i ramma fra før ville holde. Før jeg skrudde inn begge plankene bak speilet passet jeg på at raden med knapper fra skjermen stakk ut nederst.
+
+På dette tidspunktet (med begge plankene bak skrudd inn) kunne jeg snu speilet igjen.
+
+![First test no screen](/assets/first_test_no_screen.jpg)
+
+Jeg bestemte meg for å teste om skjermen fortsatt fungerte og hvordan det ville se ut.
+
+![First test NRK](/assets/first_test_nrk.jpg)
+
+![First test black screen](/assets/first_test_black_screen.jpg)
+
+Skjermen fungerte! Først hadde jeg plassert skjermen helt nederst i venstre hjørne, og dette fikset jeg raskt med å fylle på med skumgummi før jeg tok bildene over.
+
+![First test screen bleeding](/assets/first_test_screen_bleeding.jpg)
+
+Fra siden er det litt bleeding fra skjermen som man best ser på kanten på senga. Å få vekk alt er umulig uten OLED, men det er veldig mye dyrere. Sett forfra legger man ikke merke til det, så jeg var veldig fornøyd. Egentlig overrasket over hvor bra dette så ut!
+
+Det jeg gjorde deretter, var å lime fast brettet med kretskortene på speilet (altså oppå dekorplasten). Så limte jeg fast Raspberry Pi. Og da oppdaget jeg at jeg hadde glemt å lage et innsøkk til ledningene, som jeg da gjorde og egentlig burde gjort før jeg limte fast ting. Jeg hadde også kjøp et kamera til Raspberry Pi som jeg lagde et hull til i dekorplasten og limte fast.
+
+![Finished backside](/assets/finished_backside.jpg)
+
+I bilde over ser vi den ferdige baksiden av smartspeilet. Raden med knapper til skjermen teipet jeg i første omgang fast nederst. Opphenget jeg gikk for var `Triangelkrok Large - 5-pack` fra BGA Fotobutikk som hang på x-krok med dobbel (to) spiker. Jeg teipet ledninger på kryss og tvers så de holdt seg på plass. Ellers kan man legge merke til at siden konstruksjonen bare er 5 cm tykk fikk jeg ikke plass til en skjøteledning inni ramma. Det kommer to strømledninger ut fra speilet.
+
+Og her kommer endelig bilder av smartspeilet hengt opp i all sin prakt i gangen, med programvaren [Magic Mirror](https://magicmirror.builders/) kjørende.
+
+![Finished front side](/assets/finished_front_angle.jpg)
+
+![Finished right angle](/assets/finished_right_angle.jpg)
+
+![Finished left angle](/assets/finished_left_angle.jpg)
+
+Kanskje jeg skriver en del 2 om programvare og muligheter for smartspeilet senere. Takk for følge!
+
 [1]: https://nrkbeta.no/2017/02/08/slik-bygde-vi-et-magisk-smart-speil/
 [2]: https://grensesnittet.computas.com/smartspeil-uten-kanter/
 [3]: https://www.kode24.no/guider/slik-bygger-du-et-smartspeil/70550032
 [4]: https://www.bouvet.no/bouvet-deler/utbrudd/magic-mirror-version-1
 [5]: https://www.twowaymirrors.com/diy-smart-mirror/
+[6]: https://www.pilkington.com/nb-no/no/produkter/funksjonsglass/spesialglass/pilkington-mirroview
