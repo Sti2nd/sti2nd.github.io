@@ -14,11 +14,14 @@ All posts must start with front matter (meta data inside a block of three dashes
 ---
 layout: post
 title:  "TITLE"
-date:   YY-DD-MM HH:MM:SS +0100
+date:   YYYY-DD-MM HH:MM:SS +0100
 categories: [category]
+tags: [tag]
 permalink: /LINK/
 ---
 ```
+
+Add as many tags as you want to describe the post. Add few categories (because they can be part of the url). Categories is meant to group posts in a hierarchy (is my understanding).
 
 ### Install
 
