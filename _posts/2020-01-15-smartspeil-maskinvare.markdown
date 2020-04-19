@@ -3,7 +3,7 @@ layout: post
 title:  "Smartspeil del 1: Maskinvaren"
 date:   2020-01-15 08:18:12 +0100
 categories: [hackerspace]
-tags: [smartspeil, magisk speil, magic mirror norsk, magic mirror norge]
+tags: [norsk, smartspeil, magisk speil, magic mirror norsk, magic mirror norge]
 permalink: /smartspeil-del-1-maskinvaren/
 ---
 
