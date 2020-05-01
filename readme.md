@@ -1,5 +1,11 @@
 # My blog
 
+My tech blog where I write about my experiences, lessons learned, my projects and perhaps ideas.
+
+## Tech
+
+My blog are currently hosted by [Github Pages](https://pages.github.com/) and use [Jekyll](https://jekyllrb.com/) to generate the site as [supported by Github Pages](https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll).
+
 ## Notes to self
 
 ### Create new post
@@ -14,10 +20,12 @@ All posts must start with front matter (meta data inside a block of three dashes
 ---
 layout: post
 title:  "TITLE"
+description: "DESCRIPTION"
 date:   YYYY-DD-MM HH:MM:SS +0100
 categories: [category]
 tags: [tag]
 permalink: /LINK/
+lang: language_TERRITORY
 ---
 ```
 

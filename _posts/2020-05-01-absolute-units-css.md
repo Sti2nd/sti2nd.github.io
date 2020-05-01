@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "Absolute units in CSS"
+description: "Explanation of why 5cm on a low-dpi screen isn't necessarily 5cm."
 date:   2020-05-01 12:05:00 +0100
 categories: []
-tags: [english, CSS]
+tags: [CSS]
 permalink: /absolute-units-css/
+lang: en_GB
 ---
 
 _Last updated May 1 2020_

@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "Smartspeil del 1: Maskinvaren"
+description: "Hvordan jeg bygget et smartspeil."
 date:   2020-01-15 08:18:12 +0100
 categories: [hackerspace]
-tags: [norsk, smartspeil, magisk speil, magic mirror norsk, magic mirror norge]
+tags: [smartspeil, magisk speil, magic mirror norsk, magic mirror norge]
 permalink: /smartspeil-del-1-maskinvaren/
+lang: nb_NO
 ---
 
 _Sist oppdatert: 11.04.20_
