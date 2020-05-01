@@ -15,7 +15,7 @@ The first thing that comes to mind is that it would be nice if one could just te
 
 Measuring my laptop screen the dimensions were off. I thought it perhaps would solve itself when printing. It turns out, it didn't. Did I do anything wrong? What is the purpose of the CSS units `in`, `cm` and `mm` if they don't match the standardization (the International System of Units)?
 
-You can read my [post about the absolute units in CSS](https://sti2nd.github.io/absolute-units-css) to understand why the dimensions were off on my low-dpi screen. As for the print-out, I did do something wrong in my code. For printing the absolute units in CSS should work perfectly!
+You can read my [post about the absolute units in CSS]({% post_url 2020-05-01-absolute-units-css %}) to understand why the dimensions were off on my low-dpi screen. As for the print-out, I did do something wrong in my code. For printing the absolute units in CSS should work perfectly!
 
 ![It was me all along](/assets/bug_meme.jpg "It was me all along")
 
@@ -28,7 +28,7 @@ If you believe there is something wrong outside your code I suggest printing the
 <html>
   <head>
     <style type="text/css">
-        div.box {
+        div {
           border: 1px solid black;
           width: 5cm;
           height: 5cm;
@@ -36,7 +36,7 @@ If you believe there is something wrong outside your code I suggest printing the
     </style>
   </head>
   <body>
-    <div class="box"></div>
+    <div></div>
   </body>
 </html>
 ```
