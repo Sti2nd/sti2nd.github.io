@@ -23,6 +23,13 @@ permalink: /LINK/
 
 Add as many tags as you want to describe the post. Add few categories (because they can be part of the url). Categories is meant to group posts in a hierarchy (is my understanding).
 
+Add this to the end of articles to encourage comments
+
+```text
+---
+Comments on this text? [Create an issue on Github!](https://github.com/Sti2nd/sti2nd.github.io/issues)
+```
+
 ### Install
 
 1. Ruby
@@ -32,3 +39,5 @@ Add as many tags as you want to describe the post. Add few categories (because t
 ### Run locally
 
 Run with `bundle exec jekyll serve`
+
+Use `bundle exec jekyll serve --drafts` to see drafts as well.
