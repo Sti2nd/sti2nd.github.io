@@ -23,7 +23,7 @@ With time the number of device pixels per inch started increasing. At first the 
 >
 > \- [W3C](https://www.w3.org/Style/Examples/007/units.en.html)
 
-Since most implementations mapped 1 inch to 96 device pixels the inch would shrink on screens with more than 96 device pixels per inch. Another problem was that people on their web pages had written `96px` and `1in` and assumed they were of equal length. The solution was the CSS pixel; a virtual layer of pixels between the absolute units and the device pixels. The CSS pixel size was defined as:
+Since most implementations mapped 1 inch to 96 device pixels the inch would be smaller than the standard inch on screens with more than 96 device pixels per inch. Another problem was that people on their web pages had written `96px` and `1in` and assumed they were of equal length. The solution was the CSS pixel; a virtual layer of pixels between the absolute units and the device pixels. The CSS pixel size was defined as:
 
 > "The reference pixel is the visual angle of one pixel on a device with a pixel density of 96dpi and a distance from the reader of an arm’s length."
 >
