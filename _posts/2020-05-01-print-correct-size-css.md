@@ -9,15 +9,13 @@ permalink: /print-css-correct-size/
 lang: en_GB
 ---
 
-_Last updated May 1 2020_
-
 On one personal project of mine I wanted to print a box (a HTML div) on paper with the specific dimensions 32mm x 35mm. Said again a little differently, I wanted the box on the paper to be 32mm x 35mm in our real physical world. And, I wanted to use CSS to design that box.
 
 The first thing that comes to mind is that it would be nice if one could just tell CSS that the width is 32mm and the height is 35mm. Turns out, you can! CSS actually supports `mm` as a unit, so let's use it.
 
 Measuring my laptop screen the dimensions were off. I thought it perhaps would solve itself when printing. It turns out, it didn't. Did I do anything wrong? What is the purpose of the CSS units `in`, `cm` and `mm` if they don't match the standardization (the International System of Units)?
 
-You can read my [post about the absolute units in CSS]({% post_url 2020-05-01-absolute-units-css %}) to understand why the dimensions were off on my low-dpi screen. As for the print-out, I did do something wrong in my code. For printing, the absolute units in CSS should work perfectly!
+You can read my [post about the absolute units in CSS]({% post_url 2020-05-01-5cm-css %}) to understand why the dimensions were off on my low-dpi screen. As for the print-out, I did do something wrong in my code. For printing, the absolute units in CSS should work perfectly!
 
 ![It was me all along](/assets/bug_meme.jpg "It was me all along")
 
@@ -42,3 +40,6 @@ If you believe there is something wrong outside your code I suggest printing the
   </body>
 </html>
 ```
+
+---
+_Last updated May 1 2020_

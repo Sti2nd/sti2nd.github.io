@@ -31,10 +31,12 @@ lang: language_TERRITORY
 
 Add as many tags as you want to describe the post. Add few categories (because they can be part of the url). Categories is meant to group posts in a hierarchy (is my understanding).
 
-Add this to the end of articles to encourage comments
+Add this to the end of articles
 
 ```text
 ---
+Last updated May 1 2020
+
 Comments on this text? [Create an issue on Github!](https://github.com/Sti2nd/sti2nd.github.io/issues)
 ```
 

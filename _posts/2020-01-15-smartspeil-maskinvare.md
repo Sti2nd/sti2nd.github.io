@@ -9,7 +9,7 @@ permalink: /smartspeil-del-1-maskinvaren/
 lang: nb_NO
 ---
 
-_Sist oppdatert: 11.04.20_
+Denne posten beskriver med bilder hvordan jeg bygget et smartspeil.
 
 ## Introduksjon
 
@@ -226,7 +226,7 @@ Og her kommer endelig bilder av smartspeilet hengt opp i all sin prakt i gangen,
 
 ![Finished left angle](/assets/finished_left_angle.jpg)
 
-Kanskje jeg skriver en del 2 om programvare og muligheter for smartspeilet senere. Takk for følge!
+Kanskje jeg skriver en del 2 om programvare og muligheter for smartspeilet senere. Takk for følget!
 
 [1]: https://nrkbeta.no/2017/02/08/slik-bygde-vi-et-magisk-smart-speil/
 [2]: https://grensesnittet.computas.com/smartspeil-uten-kanter/
@@ -234,3 +234,8 @@ Kanskje jeg skriver en del 2 om programvare og muligheter for smartspeilet sener
 [4]: https://www.bouvet.no/bouvet-deler/utbrudd/magic-mirror-version-1
 [5]: https://www.twowaymirrors.com/diy-smart-mirror/
 [6]: https://www.pilkington.com/nb-no/no/produkter/funksjonsglass/spesialglass/pilkington-mirroview
+
+---
+_Sist oppdatert: 11.04.20_
+
+Kommentarer eller spørsmål? [Lag et issue på Github!](https://github.com/Sti2nd/sti2nd.github.io/issues)
