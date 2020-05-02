@@ -19,7 +19,7 @@ You can read my [post about the absolute units in CSS]({% post_url 2020-05-01-5c
 
 ![It was me all along](/assets/bug_meme.jpg "It was me all along")
 
-This was just a heads up that if your print of CSS isn't correct you should probably debug the project code you wrote.
+This was just a heads up that if your print of CSS isn't correct, it is probably still the project code.
 
 If you believe there is something wrong outside your code I suggest printing the following page and measure that the box is indeed 5cm tall and wide.
 
