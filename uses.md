@@ -6,7 +6,7 @@ permalink: /uses/
 lang: en_GB
 ---
 
-Notes on everything from the editor and terminal I use, to my git aliases. I wrote this page mostly as notes for myself, and was also inspired by [uses.tech](https://uses.tech/).
+Notes on everything from the editor and terminal I use, to my git aliases. I wrote this page mostly as notes for myself, and was also inspired by [uses.tech](https://uses.tech/), a web page with links to other developers that describe what they use.
 
 ## OS
 
