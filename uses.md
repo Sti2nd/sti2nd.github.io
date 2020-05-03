@@ -6,7 +6,7 @@ permalink: /uses/
 lang: en_GB
 ---
 
-Notes on everything from the editor and terminal I use, to my git aliases. I wrote this page mostly as notes for myself, and was also inspired by [uses.tech](https://uses.tech/), a web page with links to other developers that describe what they use.
+Notes on everything from the editor and terminal I use, to my git aliases. I wrote this page mostly as notes for myself, and was also inspired by [uses.tech](https://uses.tech/), a web page with links to other developers that describe what (setups, gear, software and configs) they use.
 
 ## OS
 
@@ -66,11 +66,11 @@ For all programs I try to stick with the same keybindings as in Chrome. Also pic
 
 | Shortcut | Function |
 | --- | --- |
-| CTRL + C | Copy |
-| CTRL + V | Paste |
 | CTRl + T | Open new tab / open file in project |
 | CTRL + W | Close current tab |
 | CTRL + SHIFT + T | Open last closed tab |
+| CTRL + TAB | Go to next tab |
+| CTRL + SHIFT + TAB | Go to previous tab |
 | ALT + LEFT_ARROW | Go back (to last edit location) |
 | ALT + RIGHT_ARROW | Go forward (to next edit location) |
 | ALT + DOWN_ARROW | Move line down |
@@ -78,6 +78,18 @@ For all programs I try to stick with the same keybindings as in Chrome. Also pic
 | CTRL + D | Delete line |
 | CTRL + SPACE_BAR | Autocomplete |
 | CTRL + SHIFT + P | Search in program functionality |
+| CTRL + N | Create new file |
+| CTRL + SHIFT + N | Create new folder |
+
+Note to self: perhaps I should switch to `CTRL + P` to open file in project instead of `CTRL + T`, since `CTRL + P` is standard in Chrome Devtools and VS Code.
+
+### The universal keybindings
+
+| CTRL + C | Copy |
+| CTRL + V | Paste |
+| CTRL + X | Cut |
+| CTRL + Z | Undo |
+| CTRL + Y | Redo |
 | SHIFT + SCROLL | Scroll horizontally! I am looking at you Visual Studio 😡 |
 
 ## Other
