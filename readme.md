@@ -26,6 +26,8 @@ categories: [category]
 tags: [tag]
 permalink: /LINK/
 lang: language_TERRITORY
+image: /assets/IMAGE.png
+author: "Stian Jørgensrud"
 ---
 ```
 
