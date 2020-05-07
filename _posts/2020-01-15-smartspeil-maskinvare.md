@@ -13,6 +13,8 @@ author: "Stian Jørgensrud"
 
 Denne posten beskriver med bilder hvordan jeg bygget et smartspeil.
 
+![Finished close up](/assets/smartspeil-maskinvare/finished_close_up.jpg)
+
 ## Introduksjon
 
 Helt siden jeg for flere år siden oppdaget smartspeil har jeg hatt lyst til å lage et. Smartspeil er for de som ikke vet det et delvis gjennomsiktig speil med en skjerm bak. Et <a href="https://www.google.com/search?q=magic+mirror" target="_blank" rel="noopener noreferrer">søk på Google Bilder etter "magic mirror"</a> gir mange eksempler. Det var først når jeg begynte å jobbe og fant ut at jeg hadde litt fritid å slå i hjel at jeg endelig klarte å lage et.
@@ -227,8 +229,6 @@ Og her kommer endelig bilder av smartspeilet hengt opp i all sin prakt i gangen,
 ![Finished right angle](/assets/smartspeil-maskinvare/finished_right_angle.jpg)
 
 ![Finished left angle](/assets/smartspeil-maskinvare/finished_left_angle.jpg)
-
-![Finished close up](/assets/smartspeil-maskinvare/finished_close_up.jpg)
 
 Kanskje jeg skriver en del 2 om programvare og muligheter for smartspeilet senere. Takk for følget!
 
