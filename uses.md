@@ -80,10 +80,13 @@ For all programs I try to stick with the same keybindings as in Chrome. Also pic
 | CTRL + SHIFT + P | Search in program functionality |
 | CTRL + N | Create new file |
 | CTRL + SHIFT + N | Create new folder |
+| CTRL + SHIFT + B | Build |
 
 Note to self: perhaps I should switch to `CTRL + P` to open file in project instead of `CTRL + T`, since `CTRL + P` is standard in Chrome Devtools and VS Code.
 
 ### The universal keybindings
+
+Of course I also use these
 
 | CTRL + C | Copy |
 | CTRL + V | Paste |
@@ -97,3 +100,5 @@ Note to self: perhaps I should switch to `CTRL + P` to open file in project inst
 ### Password manager
 
 [LastPass](https://www.lastpass.com/). You gotta have one if you want to remember your passwords AND have strong passwords!
+
+### Windows Terminal settings
