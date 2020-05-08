@@ -38,7 +38,7 @@ When Windows Terminal reaches version 1 I suspect I will try to always use it in
 
 [Visual Studio Code](https://code.visualstudio.com/). Pretty much use it for everything possible. Also use the command `code FILE_OR_LOCATION` to lauch VS Code from terminal.
 
-### Extensions
+### Editor extensions
 
 - [Prettier](https://prettier.io/) for formatting
 - [GitLens](https://gitlens.amod.io/) with pretty much everything turned off except Status Bar blame and Repositories View (which I show inside the Source Control side bar). Remember to disable GitLens keyboard shortcuts by adding `"gitlens.keymap": "none"`. [eamodio/vscode-gitlens#1004](https://github.com/eamodio/vscode-gitlens/issues/1004).
@@ -59,6 +59,30 @@ When Windows Terminal reaches version 1 I suspect I will try to always use it in
 
 - [git last](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) to be able to see last commit
   - Add it with: `$ git config --global alias.last 'log -1 HEAD'`
+
+## Browser
+
+Chrome
+
+### Browser extensions
+
+- [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
+- [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) to be able to solely use the keyboard to navigate while browsing. Four of the shortcuts were enough for me, so I unbound the rest so I override as few as possible (for example the shortcuts on Github)
+  - With the custom key mappings
+
+    ```text
+    # Insert your preferred key mappings here.
+    unmapAll
+    map j scrollDown
+    map k scrollUp
+    map f LinkHints.activateMode
+    map F LinkHints.activateModeToOpenInNewTab
+    ```
+
+  - With scroll step `67px` for that snappy feeling without too much lag.
+
+- [Full page screen capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl) if I need to screenshot a web page.
+
 
 ## Keybindings
 
