@@ -4,7 +4,7 @@ title:  "Printing correct size using CSS"
 description: "How to print using absolute units in CSS."
 date:   2020-05-01 12:35:00 +0100
 categories: []
-tags: [CSS]
+tags: [CSS, tips]
 permalink: /print-css-correct-size/
 lang: en_GB
 ---
