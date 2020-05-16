@@ -26,9 +26,9 @@ Luckily for us today, many programs have adopted the same keyboard shortcuts! ‚ù
 
 Lacking good keyboard shortcuts made me so annoyed that I wanted to give Microsoft feedback and I went to the [Microsoft Teams User Feedback Forum](https://microsoftteams.uservoice.com/) (mostly called UserVoice I believe). I upvoted some of the requests of custom keyboard shortcuts ([like this one](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/33625345-change-keyboard-shortcut)), but they have so few votes that I don't think this feature will be implemented as a result of UserVoice anytime soon.
 
-## Notifications
+## Notifications not in notification centre
 
-In bottom right corner of Windows lies the notification centre where apps can send their notifications. That's pretty neat, one place for all the notifications! For some reason Teams does not send its notification there... I find that extremely surprising! One would think that an app made by Microsoft, and a mature app by now, would use the notification centre in the OS made by the same company.
+In bottom right corner of Windows lies the notification centre where apps can send their notifications. That's pretty neat, one place for all the notifications! For some reason Teams does not send its notification there... I find that extremely surprising! One would think that an app made by Microsoft would use the notification centre in the OS made by the same company.
 
 ## No markdown support
 
