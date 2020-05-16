@@ -5,7 +5,7 @@ description: "What I miss in Teams compared to other comm. tools"
 date:   2020-05-16 19:37:00 +0100
 categories: []
 tags: [thoughts, opinions]
-permalink: /shortcomings-with-ms-teams/
+permalink: /shortcomings-of-ms-teams/
 lang: en_GB
 author: "Stian Jørgensrud"
 ---
