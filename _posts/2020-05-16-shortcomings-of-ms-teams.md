@@ -32,7 +32,7 @@ Again, as a developer, I write markdown every day! If I need to send a code snip
 
 ## Few reactions and no custom emojis
 
-Several people in my company were clearly disappointed that Teams did not allow for custom emojis. Even more people was dissapointed that there were only six emoticons allowed as reactions to posts and comments. Perhaps removing the option to sit at work and customising emojis is better for work productivity, but it is bad for company culture! I would say communication became 10% more boring.
+Several people in my company were clearly disappointed that Teams did not allow for custom emojis. Even more people were dissapointed that there were only six emoticons allowed as reactions to posts and comments. Perhaps removing the option to sit at work and customising emojis is better for work productivity, but it is bad for company culture! I would say communication became 10% more boring.
 
 ## Conclusion
 
