@@ -7,6 +7,7 @@ categories: []
 tags: [CSS, tips]
 permalink: /print-css-correct-size/
 lang: en_GB
+author: "Stian Jørgensrud"
 ---
 
 On one personal project of mine I wanted to print a box (a HTML div) on paper with the specific dimensions 32mm x 35mm. Said again a little differently, I wanted the box on the paper to be 32mm x 35mm in our real physical world. And, I wanted to use CSS to design that box.

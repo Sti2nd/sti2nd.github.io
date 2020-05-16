@@ -27,6 +27,7 @@ theme: minima
 show_excerpts: true
 plugins:
   - jekyll-feed
+timezone: Europe/Oslo
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

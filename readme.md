@@ -21,7 +21,7 @@ All posts must start with front matter (meta data inside a block of three dashes
 layout: post
 title:  "TITLE"
 description: "DESCRIPTION"
-date:   YYYY-DD-MM HH:MM:SS +0100
+date:   YYYY-MM-DD HH:MM:SS +0100
 categories: [category]
 tags: [tag]
 permalink: /LINK/
