@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Shortcomings with Microsoft Teams"
+title:  "Shortcomings of Microsoft Teams"
 description: "What I miss in Teams compared to other comm. tools"
 date:   2020-05-16 19:37:00 +0100
 categories: []
