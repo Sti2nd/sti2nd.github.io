@@ -7,7 +7,7 @@ categories: []
 tags: [makerspace, hackerspace, creation, javascript, react]
 permalink: /custom-guess-who-game/
 lang: en_GB
-image: /assets/IMAGE.png
+image: /assets/custom-guess-who-game/norwegian-guess-who-game.jpg
 author: "Stian Jørgensrud"
 ---
 
