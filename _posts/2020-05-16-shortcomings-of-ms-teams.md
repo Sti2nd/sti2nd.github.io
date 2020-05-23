@@ -40,7 +40,7 @@ Several people in my company were clearly disappointed that Teams did not allow 
 
 ## Conclusion
 
-Teams is ok in general, but if you are an IT company your developers won't like it (meaning they cannot be as efficient as they want to be, so consider that cost before saving money on using Teams). Slack branded itself as created for developers, I guess Teams is created for a wider audience, and maybe first and foremost non-technical people. As a developer, it is sad that Microsoft is so GUI focused (again) with this app, cause I feel more efficient with keyboard shortcuts and commands.
+Teams is ok in general, but if you are an IT company some of your developers won't like it (meaning they cannot be as efficient as they want to be, so consider that cost before saving money on using Teams). Slack branded itself as created for developers, I guess Teams is created for a wider audience, and maybe first and foremost non-technical people. As a developer, it is sad that Microsoft is so GUI focused (again) with this app, cause I feel more efficient with keyboard shortcuts and commands.
 
 ---
 _Last updated May 16 2020_
