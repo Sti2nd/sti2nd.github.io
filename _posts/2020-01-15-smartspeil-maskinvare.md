@@ -4,7 +4,7 @@ title:  "Smartspeil del 1: Maskinvaren"
 description: "Hvordan jeg bygget et smartspeil."
 date:   2020-01-15 08:18:12 +0100
 categories: [hackerspace]
-tags: [smartspeil, magisk speil, magic mirror norsk, magic mirror norge, technical, makerspace, hackerspace]
+tags: [smartspeil, magisk speil, magic mirror norsk, magic mirror norge, raspberry pi, javascript, technical, makerspace, hackerspace, creation]
 permalink: /smartspeil-del-1-maskinvaren/
 lang: nb_NO
 image: /assets/smartspeil-maskinvare/finished_close_up.jpg

@@ -4,7 +4,7 @@ title:  "Shortcomings of Microsoft Teams"
 description: "What I miss in Teams compared to other comm. tools"
 date:   2020-05-16 19:37:00 +0100
 categories: []
-tags: [thoughts, opinions]
+tags: [thoughts, opinions, microsoft]
 permalink: /shortcomings-of-ms-teams/
 lang: en_GB
 author: "Stian Jørgensrud"
@@ -16,7 +16,7 @@ Mostly I am comparing with the good one, Slack. I will write Teams when meaning 
 
 ## Bad keyboard shortcuts and no custom shortcuts
 
-From the beginning when my company switched to Teams, I missed the keyboard shortcuts. As a developer I am used to keyboard shortcuts; I have actually started to love keyboard shortcuts, and I am using them more and more. MS Teams does have keyboard shortcuts, but they differ from the other communication apps, and there are no option to customise them. Learning different keyboard shortcuts for all the different software I use, is simply not feasible!
+From the beginning when my company switched to Teams, I missed the keyboard shortcuts from Slack. As a developer I am used to keyboard shortcuts; I have actually started to love keyboard shortcuts, and I am using them more and more. MS Teams does have keyboard shortcuts, but they differ from the other communication apps, and there are no option to customise them. Learning different keyboard shortcuts for all the different software I use, is simply not feasible!
 
 Luckily for us today, many programs have adopted the same keyboard shortcuts! ❤ Copy and paste is perhaps the most famous example of functionality that transcends most programs, and they almost always have the same keyboard shortcuts: `CTRL + C` and `CTRL + V`. Some of the reason that they have been "standardized", is probably because the operating systems offer this functionality with the corresponding keybinding. So any app that utilises the OS' built in copy-paste will also probably use the OS' keybindings for those features. Now Teams, of course, utilises the OS' keybindings for the simple universal features. However, Teams is built on another infrastructure called [Electron](https://www.electronjs.org/), and it has decided to override numerous keybindings from Electron!
 
@@ -43,6 +43,5 @@ Several people in my company were clearly disappointed that Teams did not allow 
 Teams is ok in general, but if you are an IT company some of your developers won't like it (meaning they cannot be as efficient as they want to be, so consider that cost before saving money on using Teams). Slack branded itself as created for developers, I guess Teams is created for a wider audience, and maybe first and foremost non-technical people. As a developer, it is sad that Microsoft is so GUI focused (again) with this app, cause I feel more efficient with keyboard shortcuts and commands.
 
 ---
-_Last updated May 16 2020_
 
 Comments on this text? [Create an issue on Github!](https://github.com/Sti2nd/sti2nd.github.io/issues)

@@ -41,6 +41,3 @@ If you believe there is something wrong outside your code I suggest printing the
   </body>
 </html>
 ```
-
----
-_Last updated May 1 2020_
