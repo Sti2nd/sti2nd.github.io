@@ -17,7 +17,7 @@ In this text I simply write down what I know; could serve as a good introduction
 
 *Text continues after the image*
 
-![WebAssembly logo](/assets/WebAssembly_Logo.svg "WebAssembly logo")
+![WebAssembly logo](/assets/WebAssembly_Logo.png "WebAssembly logo")
 
 ### WebAssembly is a new language for the web
 
