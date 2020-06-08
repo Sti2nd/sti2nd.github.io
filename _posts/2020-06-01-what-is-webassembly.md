@@ -7,13 +7,13 @@ categories: []
 tags: [technical, webassembly]
 permalink: /what-is-webassembly/
 lang: en_US
-image: /assets/WebAssembly_Logo.svg
+image: /assets/WebAssembly_Logo.png
 author: "Stian Jørgensrud"
 ---
 
 Or rather, what is the deal with Webassembly? We already know JavaScript, CSS and HTML are used on the web, and there are tons of different libraries we can use. So what about WebAssembly?
 
-In this text I simply write down what I know; could serve as a good introduction if you have barely heard of WebAssembly. 
+In this text I simply write down what I know; could serve as a good introduction if you have barely heard of WebAssembly.
 
 *Text continues after the image*
 
