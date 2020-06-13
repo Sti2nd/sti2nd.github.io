@@ -11,7 +11,7 @@ image: /assets/WebAssembly_Logo.png
 author: "Stian Jørgensrud"
 ---
 
-Or rather, what is the deal with Webassembly? We already know JavaScript, CSS and HTML are used on the web, and there are tons of different libraries we can use. So what about WebAssembly?
+Or rather, what is the deal with Webassembly (WASM)? We already know JavaScript, CSS and HTML are used on the web, and there are tons of different libraries we can use. So what about WebAssembly?
 
 In this text I simply write down what I know; could serve as a good introduction if you have barely heard of WebAssembly.
 
@@ -31,9 +31,9 @@ A few years after asm.js appeared, WebAssembly was announced. Instead of using J
 
 So, suddenly all browsers decided to implement a new language for the web? Huge corporations have tried several times to get a new language to rule the web, and this times it simply worked? Seems weird that they didn't just implement an existing language, like C, when they were implementing a new language anyway? And this is where the genius lies!
 
-One (and I am guessing the biggest) reason that JavaScript has not been tilted by the throne, is because it is the native programming language of the web. It works in all browsers out of the box. Even though Microsoft invented Silverlight to be able to write .NET languages in the browser, they still supported JavaScript in their browser (Internet Explorer)! And of course, when a lot of web pages used JavaScript, Internet Explorer couldn't stop supporting it without loosing a lot of the market.
+One (and I am guessing the biggest) reason that JavaScript has not been tilted by the throne, is because it is the native programming language of the web. It works in all browsers out of the box. Even though Microsoft invented Silverlight to be able to write .NET languages in the browser, they still supported JavaScript in their browser Internet Explorer when they had over 90% of the market share! And of course, when a lot of web pages used JavaScript from before, Internet Explorer likely couldn't stop supporting it without loosing a lot of the market.
 
-WebAssembly is like Javascript also native. And the trick that made it possible, was to use the existing infrastructure: the JavaScript engines. Inspired by asm.js, WebAssembly is engineered to run on the JavaScript engines (with some minor changes probably), so the browser vendors did not have to spend huge efforts to implement it (relatively speaking, of course). According to a [blog post by Brendan Eich](https://brendaneich.com/2015/06/from-asm-js-to-webassembly/) WebAssembly was actually equivalent to asm.js in the beginning, which is smart to quickly make it native, and then it can diverge from JavaScript later to become even better.
+WebAssembly is like Javascript also native. And the trick that made it possible, was to use existing infrastructure: the JavaScript engines. Inspired by asm.js, WASM is engineered to run on the JavaScript engines (with some minor changes probably), so the browser vendors did not have to spend huge efforts to implement it (relatively speaking, of course). According to a [blog post by Brendan Eich](https://brendaneich.com/2015/06/from-asm-js-to-webassembly/) WebAssembly was actually equivalent to asm.js in the beginning, which is smart to quickly make it native, and then it can diverge from JavaScript later to become even better. According to the book [You Don't Know JS Yet](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/get-started), WASM looks more like assembly and can skip the parsing/compilation step normal JS code goes through.
 
 ## Applications
 
