@@ -18,9 +18,8 @@ Used Linux (Ubuntu) a bit before.
 
 ## Shells
 
-Git Bash that comes with [git](https://git-scm.com/) installations on Windows.
-
-I know how to navigate in cmd, but try to avoid it.
+- Git Bash (that comes with [git](https://git-scm.com/) installations on Windows). My default shell!
+- [PowerShell Core](https://www.microsoft.com/store/productId/9MZ1SNWT0N5D).
 
 ### Functions
 
@@ -28,11 +27,9 @@ I know how to navigate in cmd, but try to avoid it.
 
 ## Terminals
   
-- Mintty (the default with Git Bash)
+- [Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701). Can show different shells in tabs (just like ConEmu).
 - Visual Studio Code. I often like to run shells inside the editor.
-- Windows Terminal
-
-When Windows Terminal reaches version 1 I suspect I will try to always use it instead of Mintty.
+- Mintty (the default with Git Bash)
 
 ## Editor / IDE
 
@@ -83,7 +80,6 @@ Chrome
 
 - [Full page screen capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl) if I need to screenshot a web page.
 
-
 ## Keybindings
 
 For all programs I try to stick with the same keybindings as in Chrome. Also picked some up from Eclipse (I guess), and now from VS Code.
@@ -126,3 +122,12 @@ Of course I also use these
 [LastPass](https://www.lastpass.com/). You gotta have one if you want to remember your passwords AND have strong passwords!
 
 ### Windows Terminal settings
+
+[Link to gist with settings.json for my Windows Terminal](https://gist.github.com/Sti2nd/07322bda4c450b77f33eb1f5cda1dd9a)
+
+```text
+---
+Last updated December 12, 2020
+
+Comments on this text? [Create an issue on Github](https://github.com/Sti2nd/sti2nd.github.io/issues)
+```

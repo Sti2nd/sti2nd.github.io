@@ -53,3 +53,7 @@ Comments on this text? [Create an issue on Github!](https://github.com/Sti2nd/st
 Run with `bundle exec jekyll serve`
 
 Use `bundle exec jekyll serve --drafts` to see drafts as well.
+
+### Deploy
+
+Just push, and Github does the rest.
