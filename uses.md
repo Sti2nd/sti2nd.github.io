@@ -59,7 +59,8 @@ Used Linux (Ubuntu) a bit before.
 
 ## Browser
 
-Chrome
+- Chrome
+- Firefox Developer. Just because sometimes one need another browser and Mozilla is cool.
 
 ### Browser extensions
 
