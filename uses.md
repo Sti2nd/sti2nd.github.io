@@ -126,9 +126,7 @@ Of course I also use these
 
 [Link to gist with settings.json for my Windows Terminal](https://gist.github.com/Sti2nd/07322bda4c450b77f33eb1f5cda1dd9a)
 
-```text
 ---
 Last updated December 12, 2020
 
 Comments on this text? [Create an issue on Github](https://github.com/Sti2nd/sti2nd.github.io/issues)
-```
