@@ -56,4 +56,4 @@ Use `bundle exec jekyll serve --drafts` to see drafts as well.
 
 ### Deploy
 
-Just push, and Github does the rest.
+Just push, and Github will build and deploy.
