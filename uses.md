@@ -57,6 +57,8 @@ Used Linux (Ubuntu) a bit before.
 - [git last](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) to be able to see last commit
   - Add it with: `$ git config --global alias.last 'log -1 HEAD'`
 
+Bonus tip: `git checkout -` checks out the branch you were on last.
+
 ## Browser
 
 - Chrome
