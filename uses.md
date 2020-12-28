@@ -43,7 +43,7 @@ Used Linux (Ubuntu) a bit before.
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Auto Rename Tag](https://github.com/formulahendry/vscode-auto-rename-tag)
 - [Add jsdoc comments](https://marketplace.visualstudio.com/items?itemName=stevencl.addDocComments) So I can start writing `/**` and autocomplete a jsdoc.
-- [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode) for high resolution screen shots of code (for presentations)
+- [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) for high resolution screen shots of code (for presentations)
 - [Split Lines](https://marketplace.visualstudio.com/items?itemName=brainfit.split-lines) to add line breaks in the middle of a string without hassle.
 - And more extensions based on the tech I use on the project; like language servers, linters, syntax highliters and validators.
 
