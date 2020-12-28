@@ -15,7 +15,7 @@ A colleague told me that a custom [Guess Who](https://en.wikipedia.org/wiki/Gues
 
 ![Norwegian version of the Guess Who game](/assets/custom-guess-who-game/norwegian-guess-who-game.jpg)
 
-Reading the this text is not necessary to use the [Custom Guess Who game repository](https://github.com/Sti2nd/custom-guess-who). To create your own simply:
+Reading this text is not necessary to use the [Custom Guess Who game repository](https://github.com/Sti2nd/custom-guess-who). To create your own simply:
 
 1. Buy a version of the Guess Who game
 2. Find 24 images of people and crop them to their heads
@@ -36,7 +36,7 @@ One option was to use an image editor to create each card in its correct size, a
 
 In the game, there are 24 different images, and each image appear on three cards. Given the repetetive nature of the problem, a component based UI library was an obvious choice. I decided to use React, simply because I knew it from before. There were two types of cards; one type for the players and one type called secret cards. I created one component for each of the card types.
 
-It was essential that the size of the cards were correct when I printed them, so they would fit the game's card containers. Luckily, CSS actually supports the unit `mm` which will ensure the print out is correct when printed. Using web technologies to design the cards were almost easier than I first thought! In reality, I used some time on checking that the print out indeed had the correct size. When measuring the cards on the screen, they didn't have the correct size. While you can read in a blog post of mine that the [absolute units in CSS may not render in correct size on low-dpi screens]({% post_url 2020-05-01-5cm-css %}), the reason was simply a silly mistake by me.
+It was essential that the size of the cards were correct when I printed them, so they would fit the game's card containers. Luckily, CSS actually supports the unit `mm` which will ensure the print out is correct when printed. Using web technologies to design the cards was almost easier than I first thought! In reality, I used some time on checking that the print out indeed had the correct size. When measuring the cards on the screen, they didn't have the correct size. While you can read in another blog post of mine that the [absolute units in CSS may not render in correct size on low-dpi screens]({% post_url 2020-05-01-5cm-css %}), the reason was simply a silly mistake by me.
 
 With cards in their correct size and colour, they were ready to be filled with content. Instead of hard coding the path to all images and the names of each person, I imported all images from a folder and use the filename (minus the file extension) as the name to be displayed. One thing I did have to hard code was the number of printer pages because neither Flexbox nor CSS Grid supports being printed over several pages.
 
@@ -48,7 +48,7 @@ The rest of the job was to find 24 pictures of friends and family and crop them 
 
 ![Screenshot of the Guess Who React app](/assets/custom-guess-who-game/guess-who-chrome-screenshot.png)
 
-The end result turned out pretty good, and more importantly, the gift receiver was very happy!
+The end result turned out pretty good, and more importantly, the gift receiver was happy!
 
 ---
 
