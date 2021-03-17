@@ -6,7 +6,7 @@ permalink: /uses/
 lang: en_GB
 ---
 
-Notes on everything from the editor and terminal I use, to my git aliases. I wrote this page mostly as notes for myself, and was also inspired by [uses.tech](https://uses.tech/), a web page with links to other developers that describe what (setups, gear, software and configs) they use.
+Notes on everything from the editor (IDE) and terminal I use, to my git aliases. I wrote this page mostly as notes for myself, and was also inspired by [uses.tech](https://uses.tech/), a web page with links to other developers that describe what (setups, gear, software and configs) they use.
 
 ## OS
 
@@ -18,8 +18,11 @@ Used Linux (Ubuntu) a bit before.
 
 ## Shells
 
-- Git Bash (that comes with [git](https://git-scm.com/) installations on Windows). My default shell!
-- [PowerShell Core](https://www.microsoft.com/store/productId/9MZ1SNWT0N5D).
+- Git Bash. A shell that comes with [git](https://git-scm.com/) installations on Windows. This is my default shell.
+  - Supports the common [Bash commands](https://en.wikipedia.org/wiki/List_of_Unix_commands)
+  - Has built in [SSH capabilities](https://en.wikipedia.org/wiki/SSH_(Secure_Shell))!
+  - Doesn't support CTRL + ARROW keybindings, but you fix this by following 
+- [PowerShell Core](https://www.microsoft.com/store/productId/9MZ1SNWT0N5D)
 
 ### Functions
 
@@ -52,17 +55,10 @@ Used Linux (Ubuntu) a bit before.
 - Dark+ (the default)
 - [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
-## Git aliases
-
-- [git last](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) to be able to see last commit
-  - Add it with: `$ git config --global alias.last 'log -1 HEAD'`
-
-Bonus tip: `git checkout -` checks out the branch you were on last.
-
 ## Browser
 
 - Chrome
-- Firefox Developer. Just because sometimes one need another browser and Mozilla is cool.
+- Firefox Developer. Sometimes one need another browser and Mozilla is cool.
 
 ### Browser extensions
 
@@ -103,7 +99,7 @@ For all programs I try to stick with the same keybindings as in Chrome. Also pic
 | CTRL + SHIFT + P | Search in program functionality |
 | CTRL + N | Create new file |
 | CTRL + SHIFT + N | Create new folder |
-| CTRL + SHIFT + B | Build |
+| CTRL + B | Build (the current project) |
 
 Note to self: perhaps I should switch to `CTRL + P` to open file in project instead of `CTRL + T`, since `CTRL + P` is standard in Chrome Devtools and VS Code.
 
@@ -111,6 +107,8 @@ Note to self: perhaps I should switch to `CTRL + P` to open file in project inst
 
 Of course I also use these
 
+| Shortcut | Function |
+| --- | --- |
 | CTRL + C | Copy |
 | CTRL + V | Paste |
 | CTRL + X | Cut |
@@ -120,6 +118,13 @@ Of course I also use these
 
 ## Other
 
+### Git aliases
+
+- [git last](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) to be able to see last commit
+  - Add it with: `git config --global alias.last 'log -1 HEAD'`
+
+Bonus tip: `git checkout -` checks out the branch you were on last.
+
 ### Password manager
 
 [LastPass](https://www.lastpass.com/). You gotta have one if you want to remember your passwords AND have strong passwords!
@@ -128,7 +133,31 @@ Of course I also use these
 
 [Link to gist with settings.json for my Windows Terminal](https://gist.github.com/Sti2nd/07322bda4c450b77f33eb1f5cda1dd9a)
 
+### Bash .inputrc
+
+Paste the following in `~/.inputrc` Shamelessly stolen from [hellricer.github.io](https://hellricer.github.io/2019/05/21/ctrl-arrows-in-terminal.html), thanks!
+
+```bash
+### ctrl+arrows
+# works in most terminals: xterm, gnome-terminal, terminator, st, sakura, termit, …
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+# urxvt
+"\eOc": forward-word
+"\eOd": backward-word
+
+### ctrl+delete
+"\e[3;5~": kill-word
+# in this case, st misbehaves (even with tmux)
+"\e[M": kill-word
+# and of course, urxvt must be always special
+"\e[3^": kill-word
+
+### ctrl+backspace
+"\C-h": backward-kill-word
+```
+
 ---
-Last updated December 12, 2020
+Last updated March 17, 2021
 
 Comments on this text? [Create an issue on Github](https://github.com/Sti2nd/sti2nd.github.io/issues)
