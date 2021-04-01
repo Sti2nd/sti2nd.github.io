@@ -4,7 +4,7 @@ title:  "How to create a custom Guess Who game"
 description: "Custom Guess Who game with React"
 date:   2020-05-23 19:03:01 +0100
 categories: []
-tags: [makerspace, hackerspace, creation, javascript, react]
+tags: [makerspace, hackerspace, creation, javascript, react, game]
 permalink: /custom-guess-who-game/
 lang: en_GB
 image: /assets/custom-guess-who-game/norwegian-guess-who-game.jpg
