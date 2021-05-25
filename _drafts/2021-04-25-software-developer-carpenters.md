@@ -1,0 +1,1 @@
+Tenkte å skrive om hvordan jeg har erfart at det bare er 1 - 4 typer folk som lager programvare i konsulentselskaper. Når man bygger et hus er det arkitekt, prosjektleder, snekkere, rørleggere, elektrikere osv. Programvare er både enklere, men også mer avansert. Burde det ikke være flere typer folk?
