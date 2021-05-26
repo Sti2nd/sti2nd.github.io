@@ -20,6 +20,8 @@ There are many git branching strategies out there. Popular alternatives I have c
 The following image is how it looks on GitHub.
 ![Merge pull request menu of GitHub](../assets/sensible-pull-request-merge-strategy/github-pr-merge-menu.png)
 
+> TL;DR: Use squash.
+
 ## The problem: WIP commits
 
 In all the previously mentioned branching strategies a developer works in their own feature branch. On this branch, the developer creates as many or as few commits as he/she wants. Some examples of commits, can be "set up skeleton", "WIP", "finish feature". WIP is by the way an acronym of Work In Progress. What the developer does in this feature branch others don't have to care about; until the feature branch goes into a main branch such as `main`, that is.
