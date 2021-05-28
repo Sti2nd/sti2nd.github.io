@@ -4,7 +4,7 @@ title:  "A sensible merge default for PRs"
 description: "Which merge should you choose for pull requests"
 date:   2021-05-26 20:00:00 +0200
 categories: []
-tags: [technical, pull request merges, PR merge, git]
+tags: [technical, pull request merges, PR merge, git, merge request]
 permalink: /default-merge-for-pr/
 lang: en_GB
 image: /assets/sensible-pull-request-merge-strategy/github-pr-merge-menu.png
