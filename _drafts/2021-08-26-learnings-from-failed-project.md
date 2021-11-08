@@ -17,10 +17,10 @@ This is my notes on one of the projects
 
 *If we had known this at the beginning things would have gone better.*
 
-- A large project
+- It was a large project
   - Multiple microservices
   - Multiple integrations with third parties
-  - Third parties
+  - Third parties that the project was dependent on
   - Built on an existing codebase
 - Was supposed to be delivered in short time
 - New technologies and new infrastructure
@@ -35,14 +35,14 @@ Hard to say what is problems and what is side effects of problems in this sectio
 The project was greatly underestimated. I am guessing the original estimate was 1/2 of the actual time and cost it should have been. Then there was scope creep that we continued to underestimate. Some reasons for this were perhaps
 
 - Customer claimed it was a small system. In what must have been a quick and dirty planning phase the planned software was perhaps of medium size; a front-end, a back-end, and the back-end consisting of some microservices and some integrations.
-- Believing new technology and infrastructure would cut the development time. Sure, this can be true in the long run, but when the project is already supposed to be done in a short time the overhead of learning new things eats up the time potentially saved. Also, new tech often have additional features compared to the old tech, features which often ends up getting used even though they wasn't considered essential in the old tech. These new features are essentially scope creep. Instead of saving time by using new tech, spend  a bit more time and get more features. So the total amount of time spent developing features doesn't go down, but we do get more features per time spent. Overall I believe using new tech and infrastructure did not save any time. (The new tech could save some cost in the long run, though.)
+- Believing new technology and infrastructure would cut the development time. Sure, this can be true in the long run, but when the project is already supposed to be done in a short time the overhead of learning new things eats up the time potentially saved. Also, new tech often have additional features compared to the old tech, features which often ends up getting used even though they wasn't considered essential in the old tech. These new features can be scope creep. Instead of saving time by using new tech one spend a bit more time and get more features. So the total amount of time spent developing features doesn't go down, but we do get more features per time spent. Overall I believe using new tech and infrastructure did not save any time. (The new tech could save some cost in the long run, though.)
 - Believing building on an existing codebase would cut the development time. This can be true as well, but also comes with overhead in the beginning. We did not have anyone that worked on the existing codebase to learn from and the documentation was poor.
 - Scope creep
   - The additional front end. What we didn't do when we estimated the additional front end, was to estimate how much work would be needed to be done in the back end because of this new front end. The project was hoping that the already planned APIs could be used for the additional front end as well, and a quick and dirty estimate was added to accomodate for changes that needed to be done and some extra routes. I believe that we greatly underestimated the increase in complexity from going from one to two clients. I wasn't even aware that an additional client would increase complexity at the time, so that is why I am writing it down now. Two clients have different needs, and so they might want to send in slightly different data and get slightly different data back. And if we look away from the obvious functional part, the clients was authorized differently which obviously adds more complexity.
 
 ### Juniors
 
-In the beginning there were 2 seniors and around 6 juniors on my team. My team was one of a few teams.
+In the beginning there were 2 seniors and around 6 juniors on my team. These numbers increased with mostly juniors. Juniors isn't a problem in itself but seem like a bad fit for an advanced project that should be delivered on short time.
 
 ### Scope creep
 
@@ -83,13 +83,15 @@ We just skipped writing automatic tests. Possible reasons:
 
 Probably not every one of these suggestions could be used when doing a project fast, but I am not experienced enough to know which can be skipped.
 
-### Let back-end decide on API
+### Plan the API before implementation
 
-Of course the API needs to be discussed with all the front ends in mind to cover their needs. In this project the people working on the front end had different needs and introduced a lot of scope creep. The people creating the API (like me) should have said no to several routes.
+In order for developers to develop different parts of a system at the same time and be able to integrate it later they need to agree on something up front. I believe it is common to design the APIs that connects server with client before implementation. We ended up implementing several routes for performing the exact same operation. For example client 1 would call route 1 and client 2 would call route 2 and they would pass in the exact same data to the route which would essentially do the exact same operation.
 
-### Plan the API ahead
+### Be strict about API changes
 
-The API should be planned ahead and thought through. We ended up implementing several different 
+In this project the different clients had different needs and introduced changes mid-implementation. It often turned out that each change in the client was a much bigger change (or addition) in the back end. I knew some of the changes could have been solved by doing two requests on the client instead instead of one. Sadly, we instead spent two weeks on simplifying it to one route on backend. Given that the back-end was way behind schedule, trading off backend-time for client-time was a bad decision. The people creating the API (like me) should have said no to several new routes and route changes.
+
+Since we were poorly organized I am unsure if the right people (tech lead?) took a decision on these changes at all. In some cases I know the people working on the client told a random person working on server (like me) what their needs were and the changes was then incorporated without much thinking. If we should have been strict about API changes with the organization we had, all back-end people would have to know that they should be strict. Personally, as one of 10 junior developers in a large scale project I didn't feel at that time that I had the knowledge nor mandate to deny changes from the people working on the client.
 
 ### Better project management
 
