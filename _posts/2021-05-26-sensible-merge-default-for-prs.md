@@ -20,7 +20,7 @@ There are many git branching strategies out there. Popular alternatives I have c
 The following image is how it looks on GitHub.
 ![Merge pull request menu of GitHub](../assets/sensible-pull-request-merge-strategy/github-pr-merge-menu.png)
 
-> TL;DR: Use squash.
+> TL;DR: Use squash when merging developer branches (such as feature, bugfix) into a main branch.
 
 ## The problem: WIP commits
 
