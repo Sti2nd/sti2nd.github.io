@@ -57,3 +57,9 @@ Use `bundle exec jekyll serve --drafts` to see drafts as well.
 ### Deploy
 
 Just push, and Github will build and deploy.
+
+### Update all gems
+
+1. Delete `Gemfile.lock`
+2. Set the `github-pages` gem to the latest version listed here: [pages.github.com/versions/](https://pages.github.com/versions/)
+3. Run `bundle update`
