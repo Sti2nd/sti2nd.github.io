@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Validation in react-hook-form with nested form fields"
-description: ""
+description: "Validation of large forms with nested components using zod schema validation in react-hook-form"
 date: 2021-12-17 20:26:00 +0100
 categories: []
 tags: [react, react-hook-form, form, validation, nested, schema]
