@@ -2,7 +2,7 @@
 layout: post
 title:  "Validation in react-hook-form with nested form fields"
 description: ""
-date: 2021-12-13 21:26:00 +0100
+date: 2021-12-17 20:26:00 +0100
 categories: []
 tags: [react, react-hook-form, form, validation, nested, schema]
 permalink: /react-hook-form-nested-validation/
@@ -17,7 +17,7 @@ In the projects I have worked on forms quickly grow to be large components. The 
 
 ## From basic to schema validation
 
-Following are code examples where we go from a basic form in one component to a form that consists of severl components and uses schema validation.
+Following are code examples where we go from a basic form in one component to a form that consists of several components and uses schema validation.
 
 First we have a simple example with react-hook-form using native elements:
 
@@ -94,7 +94,7 @@ As seen above, the register method is passed down from the parent component to t
 One solution to make the above work in version 7 is to use schema validation. There a numerous schema libraries supported, see all of them in the [resolvers repository](https://github.com/react-hook-form/resolvers). I went with [zod](https://github.com/colinhacks/zod) because it is able to infer the form type from the schema.
 
 ```jsx
-// Good code, react-hook-form 7
+// Good code 1, react-hook-form 7
 // import { z } from "zod";
 // import { zodResolver } from "@hookform/resolvers/zod";
 
@@ -127,7 +127,7 @@ Because of the fact that validation with schema will happen after all the inputs
 And lastly, I tend to use the [FormContext API](https://react-hook-form.com/api/useformcontext) right away so I don't need to pass the register method down in all children.
 
 ```jsx
-// Good code, react-hook-form 7
+// Good code 2, react-hook-form 7
 // import { z } from "zod";
 // import { zodResolver } from "@hookform/resolvers/zod";
 
@@ -159,7 +159,13 @@ Now you know how to use schema validation with react-hook-form so you can manage
 
 When you write your zod schema to validate something else than a `string` type you will experience that it doesn't work. This is because the native HTML-input field always returns a `string`! React-hook-form has two quick options you can use that will <u>try</u> to convert the value to another type; `valueAsNumber` and `valueAsDate` on the [register method](https://react-hook-form.com/api/useform/register). If the field is optional, though, you should instead use the `setValueAs` method and convert from string yourself. I wrote an example on how to have optional number inputs with react-hook-form and zod [on GitHub](https://github.com/react-hook-form/react-hook-form/discussions/6980#discussioncomment-1785009).
 
-[^1]: Of course one could allow the custom component to receive any props, but I don't like that since one loses the type safety on the props.
+## Example of FormField component
+
+If you want an example on how the FormField component can look like here it is! ❤
+
+{% gist 00c8164c3af1e649a2b70690a39d0da2 %}
+
+[^1]: Of course one could allow the custom component to receive `any` props but I don't like that since one loses the type safety on the props.
 
 ---
 Last updated December 17, 2021
