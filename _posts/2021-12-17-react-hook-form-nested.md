@@ -89,7 +89,7 @@ return (
 );
 ```
 
-As seen above, the register method is passed down from the parent component to the child component (FormField), which will set it on the input ref. This doesn't work with react-hook-form version 7 because it requires one to apply spread to the register method[^1].
+As seen above, the register method is passed down from the parent component to the child component (FormField), which will set it on the input ref. This doesn't work with react-hook-form version 7 because it requires one to apply spread to the register method.
 
 One solution to make the above work in version 7 is to use schema validation. There a numerous schema libraries supported, see all of them in the [resolvers repository](https://github.com/react-hook-form/resolvers). I went with [zod](https://github.com/colinhacks/zod) because it is able to infer the form type from the schema.
 
@@ -165,9 +165,7 @@ If you want an example on how the FormField component can look like here it is! 
 
 {% gist 00c8164c3af1e649a2b70690a39d0da2 %}
 
-[^1]: Of course one could allow the custom component to receive `any` props but I don't like that since one loses the type safety on the props.
-
 ---
-Last updated December 17, 2021
+Last updated December 18, 2021
 
 Comments on this text? [Create an issue on Github!](https://github.com/Sti2nd/sti2nd.github.io/issues)
