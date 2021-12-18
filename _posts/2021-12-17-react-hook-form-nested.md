@@ -163,7 +163,7 @@ When you write your zod schema to validate something else than a `string` type y
 
 If you want an example on how the FormField component can look like here it is! ❤
 
-[FormField.tsx gist URL](https://gist.github.com/Sti2nd/00c8164c3af1e649a2b70690a39d0da2#file-formfield-tsx)
+{% gist 00c8164c3af1e649a2b70690a39d0da2 %}
 
 [^1]: Of course one could allow the custom component to receive `any` props but I don't like that since one loses the type safety on the props.
 
