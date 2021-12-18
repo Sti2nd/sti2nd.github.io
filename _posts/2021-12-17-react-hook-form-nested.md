@@ -153,20 +153,3 @@ return (
 ```
 
 Now you know how to use schema validation with react-hook-form so you can manage large forms with ease. ✅🚀
-
-## Gotcha: input element always return string
-
-When you write your zod schema to validate something else than a `string` type you will experience that it doesn't work. This is because the native HTML-input field always returns a `string`! React-hook-form has two quick options you can use that will <u>try</u> to convert the value to another type; `valueAsNumber` and `valueAsDate` on the [register method](https://react-hook-form.com/api/useform/register). If the field is optional, though, you should instead use the `setValueAs` method and convert from string yourself. I wrote an example on how to have optional number inputs with react-hook-form and zod [on GitHub](https://github.com/react-hook-form/react-hook-form/discussions/6980#discussioncomment-1785009).
-
-## Example of FormField component
-
-If you want an example on how the FormField component can look like here it is! ❤
-
-{% gist 00c8164c3af1e649a2b70690a39d0da2 %}
-
-[^1]: Of course one could allow the custom component to receive `any` props but I don't like that since one loses the type safety on the props.
-
----
-Last updated December 17, 2021
-
-Comments on this text? [Create an issue on Github!](https://github.com/Sti2nd/sti2nd.github.io/issues)
