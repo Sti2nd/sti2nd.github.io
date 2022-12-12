@@ -36,7 +36,9 @@ Used Linux (Ubuntu) a bit before.
 
 ## Editor / IDE
 
-[Visual Studio Code](https://code.visualstudio.com/). Pretty much use it for everything possible. Also use the command `code FILE_OR_LOCATION` to lauch VS Code from terminal.
+1. [Visual Studio Code](https://code.visualstudio.com/). Pretty much use it for everything possible. Also use the command `code <FILE_OR_LOCATION>` to lauch VS Code from terminal.
+2. Visual Studio. Sometimes have to use it for work. Start it from terminal with `start devenv`
+3. IntelliJ. Sometimes have to use it for work. After adding `C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin` to PATH, one can start it from terminal with `idea64.exe <FILE_OR_LOCATION> &`. The trailing ampersand is to put the process in background
 
 ### Editor extensions
 
@@ -114,7 +116,8 @@ Of course I also use these
 | CTRL + X | Cut |
 | CTRL + Z | Undo |
 | CTRL + Y | Redo |
-| SHIFT + SCROLL | Scroll horizontally! I am looking at you Visual Studio 😡 |
+| CTRL + F | Search |
+| SHIFT + SCROLL | Scroll horizontally |
 
 ## Other
 
@@ -122,6 +125,8 @@ Of course I also use these
 
 - [git last](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) to be able to see last commit
   - Add it with: `git config --global alias.last 'log -1 HEAD'`
+- `git fuck` to be able to undo the most common error I do, which is to commit on the wrong branch
+  - Add it with: `git config --global alias.fuck 'reset --soft HEAD~1'`
 
 Bonus tip: `git checkout -` checks out the branch you were on last.
 
@@ -158,6 +163,6 @@ Paste the following in `~/.inputrc` Shamelessly stolen from [hellricer.github.io
 ```
 
 ---
-Last updated March 17, 2021
+Last updated December 12, 2022
 
 Comments on this text? [Create an issue on Github](https://github.com/Sti2nd/sti2nd.github.io/issues)
